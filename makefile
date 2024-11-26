@@ -1,6 +1,6 @@
 compile: fork.o
-	gcc -o fork fork.o
+	@gcc -o fork fork.o
 run: fork
-	./fork
+	@./fork
 fork.o: fork.c
-	gcc -c fork.c
+	@gcc -c fork.c
